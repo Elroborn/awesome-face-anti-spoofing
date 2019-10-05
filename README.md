@@ -9,9 +9,9 @@
     - [handcrafted](#handcrafted)
         - [single-frame](#handcrafted)
         - [multi-frame](#handcrafted)
-    - [cnn based](#handcrafted)
-        - [single-modal](#ingle-modal)
-        - [multi-modal](#multi-modal)  
+    - [cnn-based](#cnn-based)
+        - [single-modal](#cnn-based)
+        - [multi-modal](#cnn-based)  
         
  - [Datasets](#-datasets)
  - [WebSite](#-WebSite)
@@ -19,32 +19,99 @@
 
 ## 📝 Paper / Algorithm   
 
-#### Survey
+### Survey
 
 ![image](https://tva4.sinaimg.cn/large/005Dd0fOly1g7nm5vu194j30iz0i2t9o.jpg)  
 
-[reference](https://zhuanlan.zhihu.com/p/43480539)  
+[活体检测Face Anti-spoofing综述](https://zhuanlan.zhihu.com/p/43480539)  
 
-#### handcrafted   
+### handcrafted   
 
-##### single-frame  
+#### single-frame  
 
-**[1] LBP** 
+**LBP** 
 
 On the effectiveness of Local Binary Patterns in face anti-spoofifing  
-**[2] DoG**  
+**DoG**   
 
-**[3] Colour Texture**   
+A face antispoofifing database with diverse attacks
 
-##### multi-frame  
+**Colour Texture**   
 
-**[4] Eyeblink**  
+Face Spoofing Detection Using Colour Texture Analysis  
 
-**[5] DMD + LBP**  
+#### multi-frame  
 
-**[6] rPPg**      
+**Eyeblink**    
 
-#### cnn based  
+Eyeblink-based anti-spoofifing in face recognition from a generic webcamera
+
+**DMD + LBP**    
+
+Detection of Face Spoofing Using Visual Dynamics
+
+**rPPg**       
+
+Generalized face anti-spoofing by detecting pulse from face videos
+
+### cnn-based  
+
+#### single-modal  
+
+**CNN**    
+
+Learn Convolutional Neural Network for Face Anti-Spoofing
+
+**CNN-LSTM**  
+
+Learning Temporal Features Using LSTM-CNN Architecture for Face Anti-spoofing
+
+**Patch**    
+
+Face anti-spoofifing using patch and depth-based CNNs  
+
+An original face anti-spoofifing approach using partial convolutional neural network
+
+**rPPg+Depth**    
+
+Learning Deep Models for Face Anti-Spoofing: Binary or Auxiliary Supervision
+
+**Micro-texture + SSD**  
+
+Discriminative Representation Combinations for Accurate Face Spoofing Detection 
+
+**De-Spoofing**   
+
+Face De-Spoofing: Anti-Spoofing via Noise Modeling  
+
+
+#### multi-modal  
+
+**CASIA-SURF**   
+
+A Dataset and Benchmark for Large-scale Multi-modal Face Anti-spoofing
+
+**SENet**  
+
+Recognizing Multi-modal Face Spoofing with Face Recognition Networks
+
+**FaceBag**   
+
+FaceBagNet: Bag-of-local-features Model for Multi-modal Face Anti-spoofing
+
+**FeatherNets**   
+
+FeatherNets: Convolutional Neural Networks as Ligh as Feather for Face Anti-spoofing  
+
+## 📦 Datasets  
+
+
+
+
+
+
+
+
 
 
 
